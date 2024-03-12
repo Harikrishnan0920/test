@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin:0px;
+
+ 
 }
 
 .App-logo {
@@ -36,3 +39,51 @@
     transform: rotate(360deg);
   }
 }
+.title{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.usestate{
+    position: absolute;
+    top: 43%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: xx-large !important;
+}
+
+.nav{
+  margin-left: -9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.body{
+  font-size: xx-large;
+}
+
+.todo{
+  font-size: large;
+  position: fixed;
+  top: 310px;
+  left: 82%;
+  width: 100%;
+}
+input{
+  width:50vw !important
+}
+
+.important{
+  position: relative;
+  height:80px;
+  
+  left:190px
+}
+

@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: xx-large;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title{
+  font-size: xxx-large;
+  position: fixed;
+  top: 11vh;
+}
+
+.button{
+  border-radius: 20px;
+  
 }
